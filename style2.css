@@ -17,9 +17,9 @@ article{
 }
 section{
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
+    flex-flow: row-reverse;
+    align-items: flex-end;
+    justify-content: space-evenly;
     margin: 0 auto;
 }
 article:nth-of-type(4){
